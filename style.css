@@ -13,12 +13,23 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
+}
+
+.focus_visible_black:focus-visible {
+  outline: 3px dashed black;
+}
+
+.focus_visible_orange:focus-visible {
+  outline: 3px dashed #b55121;
 }
 
 a:hover {
   text-decoration: none;
   cursor: pointer;
+}
+
+.text_citation {
+  font-size: 21px;
 }
 
 #page-loading-blocs-notifaction {
@@ -773,11 +784,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #d97849;
+  background-color: #b55121;
 }
 
 .tc-white {
   color: #f3976c !important;
+}
+
+.h2_footer {
+  color: white !important;
 }
 
 .titre_page2 {
@@ -785,7 +800,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-  background: #d97849;
+  background: #b55121;
   color: #ffffff !important;
 }
 
